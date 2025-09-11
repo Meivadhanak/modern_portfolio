@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "sass":"sass --watch scss:dist/css"
+  "homepage": "https://Meivadhanak.github.io/modern_portfolio",
+   "scripts": {
+    "sass": "sass --watch scss:dist/css",
+    "deploy":"gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "sass": "^1.91.0"
   }
 }
