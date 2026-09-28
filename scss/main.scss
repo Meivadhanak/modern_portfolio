@@ -36,6 +36,12 @@ a {
     color:#fff;
     text-decoration: none;
 }
+
+:focus-visible {
+    outline: 3px solid $secondary-color;
+    outline-offset: 4px;
+}
+
 header {
     position:fixed;
     z-index: 2;
